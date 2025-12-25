@@ -32,7 +32,7 @@
         }
     ],
     "env": {
-        "APP_NAME": "Google Sheets for Laravel Demo",
+        "APP_NAME": "Laravel Vercel",
         "APP_DEBUG": "false",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
