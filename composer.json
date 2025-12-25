@@ -66,6 +66,11 @@
             "@php artisan key:generate --ansi"
         ],
         "pre-autoload-dump": "Google\\Task\\Composer::cleanup",
+        "vercel": [
+            "Google\\Task\\Composer::cleanup",
+            "npm install",
+            "npm run build"
+        ],
         "lint": "vendor/bin/pint",
         "test": "vendor/bin/phpunit"
     }
