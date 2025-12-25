@@ -13,5 +13,11 @@
 <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
 
 <!-- Scripts -->
-@vite(['resources/css/app.css', 'resources/js/app.js'])
+{{--@vite(['resources/css/app.css', 'resources/js/app.js'])--}}
+<style>
+    {!! Vite::content('resources/css/app.css') !!}
+</style>
+<script>
+    {!! Vite::content('resources/js/app.js') !!}
+</script>
 @fluxAppearance
