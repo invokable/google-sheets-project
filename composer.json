@@ -34,7 +34,11 @@
     "extra": {
         "laravel": {
             "dont-discover": []
-        }
+        },
+        "google/apiclient-services": [
+            "Drive",
+            "Sheets"
+        ]
     },
     "autoload": {
         "psr-4": {
@@ -61,6 +65,7 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ],
+        "pre-autoload-dump": "Google\\Task\\Composer::cleanup",
         "lint": "vendor/bin/pint",
         "test": "vendor/bin/phpunit"
     }
