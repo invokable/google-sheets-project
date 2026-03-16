@@ -4,6 +4,7 @@ namespace Tests\Feature;
 
 use App\Livewire\Sheets\Form;
 use App\Livewire\Sheets\Posts;
+use Illuminate\Support\Collection;
 use Livewire\Livewire;
 use Revolution\Google\Sheets\Facades\Sheets;
 use Tests\TestCase;
@@ -142,7 +143,7 @@ class LivewireTest extends TestCase
         $posts = $component->instance()->posts();
 
         // Verify the returned data is correctly formatted (reversed and limited to 10)
-        $this->assertInstanceOf(\Illuminate\Support\Collection::class, $posts);
+        $this->assertInstanceOf(Collection::class, $posts);
         $this->assertCount(3, $posts);
 
         // Should be in reverse order
@@ -227,7 +228,7 @@ class LivewireTest extends TestCase
         $component = Livewire::test(Posts::class);
         $posts = $component->instance()->posts();
 
-        $this->assertInstanceOf(\Illuminate\Support\Collection::class, $posts);
+        $this->assertInstanceOf(Collection::class, $posts);
         $this->assertCount(0, $posts);
     }
 }
