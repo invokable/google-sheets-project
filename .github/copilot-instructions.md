@@ -7,8 +7,8 @@ The **Google Sheets Laravel Demo Project** is a demonstration application that s
 **Target Users**: Laravel developers learning Google Sheets integration, particularly those working with Livewire and modern Laravel stack.
 
 **Key Features**:
-- **Laravel 12 Framework**: Latest Laravel features with modern PHP 8.2+ support
-- **Livewire 3 Integration**: Real-time UI updates using standard Livewire components (not Volt)
+- **Laravel 13 Framework**: Latest Laravel features with modern PHP 8.2+ support
+- **Livewire 4 Integration**: Real-time UI updates using standard Livewire components (not Volt)
 - **Google Sheets API**: Service account authentication for server-to-server communication
 - **Flux UI Components**: Modern, reactive user interface with Livewire Starter Kit
 - **Real-time Data Sync**: Form submissions instantly appear in both Google Sheets and the application
@@ -21,7 +21,7 @@ The **Google Sheets Laravel Demo Project** is a demonstration application that s
 
 ## Project Structure
 
-This Laravel 12 demo application uses a clean, modern architecture with the following key components:
+This Laravel 13 demo application uses a clean, modern architecture with the following key components:
 
 ### Main Application Components
 

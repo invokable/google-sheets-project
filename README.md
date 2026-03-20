@@ -8,11 +8,11 @@ https://docs.google.com/spreadsheets/d/1SUNw7QzAMx-xXUwr5s-mJrZC9NGFRl4RqyzSL6Co
 
 https://github.com/invokable/laravel-google-sheets
 
-The current implementation is a sample code for service account authentication using Laravel 12 and Livewire Starter Kit with standard components (non-Volt).
+The current implementation is a sample code for service account authentication using Laravel 13 and Livewire Starter Kit with standard components (non-Volt).
 
 ## Features
 
-- Laravel 12 with Livewire 3 (standard components)
+- Laravel 13 with Livewire 4 (standard components)
 - Google Sheets API integration using service account authentication
 - Simple form to add entries to Google Sheets
 - Real-time display of recent entries
@@ -33,7 +33,7 @@ The current implementation is a sample code for service account authentication u
 
 ## Project Structure
 
-This project uses Laravel 12 with Livewire 3 in the standard component format (not Volt). The Livewire components are traditional PHP classes that extend the base `Component` class:
+This project uses Laravel 13 with Livewire 4 in the standard component format (not Volt). The Livewire components are traditional PHP classes that extend the base `Component` class:
 
 - `app/Livewire/Sheets/Form.php` - Handles the form for adding entries to Google Sheets
 - `app/Livewire/Sheets/Posts.php` - Displays recent entries from Google Sheets
