@@ -57,43 +57,6 @@ This Laravel 12 demo application uses a clean, modern architecture with the foll
 - **Mockery** - API mocking for Google Sheets interactions
 - **Laravel Pint** - Code style enforcement
 
-## Setup Instructions
-
-### 1. Environment Configuration
-
-Copy the environment template and configure your local settings:
-
-```bash
-cp .env.example .env
-```
-
-### 2. Google API Credentials Setup
-
-**Note**: This step cannot be fully tested in Copilot due to API restrictions.
-
-1. Create a Google Cloud Project at [Google Cloud Console](https://console.cloud.google.com/)
-2. Enable the Google Sheets API and Google Drive API
-3. Create a Service Account and download the JSON credentials file
-4. Place the JSON file in `storage/sheets-service-account.json`
-5. Configure the following environment variables:
-
-```env
-GOOGLE_SERVICE_ENABLED=true
-GOOGLE_SERVICE_ACCOUNT_JSON_LOCATION="storage/sheets-service-account.json"
-```
-
-### 3. Google Sheets Configuration
-
-1. Create a new Google Spreadsheet
-2. Share it with your service account email (found in the JSON credentials)
-3. Copy the spreadsheet ID from the URL
-4. Configure environment variables:
-
-```env
-POST_SPREADSHEET_ID=your_spreadsheet_id_here
-POST_SHEET_ID=Sheet1
-```
-
 ## About fakerphp/faker in Production
 
 The package `fakerphp/faker` is installed using `require` (not `require-dev`) because it is needed by `app/Console/Commands/ResetCommand.php` to generate random names and sentences when resetting the spreadsheet.  
