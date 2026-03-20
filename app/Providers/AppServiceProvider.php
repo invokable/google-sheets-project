@@ -3,7 +3,6 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use PulkitJalan\Google\Client as GoogleClient;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -12,7 +11,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->app->alias(GoogleClient::class, 'google-client');
+        //
     }
 
     /**
