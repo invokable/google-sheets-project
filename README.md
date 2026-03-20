@@ -28,7 +28,8 @@ The current implementation is a sample code for service account authentication u
 | [8.x](https://github.com/invokable/google-sheets-project/tree/8.x)                 | Laravel 8   | Breeze, Livewire                           | Service account                  |
 | [11.x](https://github.com/invokable/google-sheets-project/tree/11.x)               | Laravel 11  | Breeze, Livewire                           | Service account                  |
 | [12.x-breeze](https://github.com/invokable/google-sheets-project/tree/12.x-breeze) | Laravel 12  | Breeze, Livewire                           | Service account                  |
-| `main`                                                                             | Laravel 12  | Livewire Starter Kit (standard components) | Service account                  |
+| [12.x](https://github.com/invokable/google-sheets-project/tree/12.x)               | Laravel 12  | Livewire Starter Kit (standard components) | Service account                  |
+| `main`                                                                             | Laravel 13  | Livewire Starter Kit (standard components) | Service account                  |
 
 ## Project Structure
 
