@@ -14,6 +14,7 @@
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
         "livewire/flux": "^2.1.1",
+        "livewire/livewire": "^4.0",
         "pulkitjalan/google-apiclient": "^6.2",
         "revolution/laravel-google-sheets": "^7.0"
     },
@@ -73,6 +74,7 @@
             "npm run build"
         ],
         "lint": "vendor/bin/pint",
-        "test": "vendor/bin/phpunit"
+        "test": "vendor/bin/phpunit",
+        "boost": "@php artisan boost:install --no-interaction --ansi"
     }
 }
