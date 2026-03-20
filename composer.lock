@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f9ca19aed45960f3d6e57da18b473d9",
+    "content-hash": "dbfd80315d9df1cd0635dcfd0ccfb71c",
     "packages": [
         {
             "name": "brick/math",
@@ -3817,67 +3817,6 @@
                 "source": "https://github.com/bobthecow/psysh/tree/v0.12.21"
             },
             "time": "2026-03-06T21:21:28+00:00"
-        },
-        {
-            "name": "pulkitjalan/google-apiclient",
-            "version": "6.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pulkitjalan/google-apiclient.git",
-                "reference": "539edd34cefe7f92caaaba824a0ce11166f32d08"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pulkitjalan/google-apiclient/zipball/539edd34cefe7f92caaaba824a0ce11166f32d08",
-                "reference": "539edd34cefe7f92caaaba824a0ce11166f32d08",
-                "shasum": ""
-            },
-            "require": {
-                "google/apiclient": "^2.16",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
-                "php": ">=8.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "^1.6",
-                "pestphp/pest": "^1.20|^2.0|^3.7"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "aliases": {
-                        "Google": "PulkitJalan\\Google\\Facades\\Google"
-                    },
-                    "providers": [
-                        "PulkitJalan\\Google\\GoogleServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "PulkitJalan\\Google\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Pulkit Jalan"
-                }
-            ],
-            "description": "Google api php client wrapper with Cloud Platform and Laravel support",
-            "homepage": "https://github.com/pulkitjalan/google-apiclient",
-            "keywords": [
-                "cloud platform",
-                "google",
-                "laravel"
-            ],
-            "support": {
-                "issues": "https://github.com/pulkitjalan/google-apiclient/issues",
-                "source": "https://github.com/pulkitjalan/google-apiclient/tree/6.3.1"
-            },
-            "time": "2025-02-22T06:55:50+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
