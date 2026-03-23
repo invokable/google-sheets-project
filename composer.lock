@@ -3743,16 +3743,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.12.21",
+            "version": "v0.12.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "4821fab5b7cd8c49a673a9fd5754dc9162bb9e97"
+                "reference": "3be75d5b9244936dd4ac62ade2bfb004d13acf0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/4821fab5b7cd8c49a673a9fd5754dc9162bb9e97",
-                "reference": "4821fab5b7cd8c49a673a9fd5754dc9162bb9e97",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/3be75d5b9244936dd4ac62ade2bfb004d13acf0f",
+                "reference": "3be75d5b9244936dd4ac62ade2bfb004d13acf0f",
                 "shasum": ""
             },
             "require": {
@@ -3816,9 +3816,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.12.21"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.12.22"
             },
-            "time": "2026-03-06T21:21:28+00:00"
+            "time": "2026-03-22T23:03:24+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -8021,16 +8021,16 @@
         },
         {
             "name": "revolution/laravel-boost-copilot-cli",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/invokable/laravel-boost-copilot-cli.git",
-                "reference": "ce11a9a8811f820a2c1e0f9ea2f4554b30fc7b81"
+                "reference": "e7aca197f523b112cb7a091317a375c48fceb979"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/invokable/laravel-boost-copilot-cli/zipball/ce11a9a8811f820a2c1e0f9ea2f4554b30fc7b81",
-                "reference": "ce11a9a8811f820a2c1e0f9ea2f4554b30fc7b81",
+                "url": "https://api.github.com/repos/invokable/laravel-boost-copilot-cli/zipball/e7aca197f523b112cb7a091317a375c48fceb979",
+                "reference": "e7aca197f523b112cb7a091317a375c48fceb979",
                 "shasum": ""
             },
             "require": {
@@ -8078,7 +8078,7 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/invokable/laravel-boost-copilot-cli/tree/2.1.0"
+                "source": "https://github.com/invokable/laravel-boost-copilot-cli/tree/2.2.0"
             },
             "funding": [
                 {
@@ -8086,7 +8086,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-03-17T22:37:41+00:00"
+            "time": "2026-03-20T13:14:27+00:00"
         },
         {
             "name": "revolution/laravel-vercel-installer",
