@@ -2,9 +2,10 @@
     "agents": [
         "copilot-cli"
     ],
+    "cloud": false,
     "guidelines": true,
     "mcp": true,
-    "nightwatch_mcp": false,
+    "nightwatch": false,
     "packages": [
         "revolution/laravel-boost-copilot-cli"
     ],
