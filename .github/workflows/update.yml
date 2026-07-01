@@ -6,7 +6,7 @@ on:
 
 jobs:
   composer:
-    uses: kawax/composer-workflow/.github/workflows/update.yml@b1ad2a4aa1d05fba8ce5c3590f486546a5c7c0fa # v1
+    uses: kawax/composer-workflow/.github/workflows/update.yml@15c23237552697eacac7b32ef9f217906db85db3 # v1
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}
     with:
