@@ -11,7 +11,9 @@
     ],
     "sail": false,
     "skills": [
+        "infer-conventions",
         "laravel-best-practices",
+        "testing-best-practices",
         "fluxui-development",
         "livewire-development",
         "tailwindcss-development"
